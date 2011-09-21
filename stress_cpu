@@ -1,0 +1,6 @@
+#!/usr/bin/python
+
+from multiprocessing import cpu_count
+from os import system
+
+system(str('yes > /dev/null & '*cpu_count())[:-2])
