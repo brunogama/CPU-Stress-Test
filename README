@@ -1,8 +1,0 @@
-Simple python script to stress all the cpu cores.
-
-It will not exit because the system line will not terminate. To finish this script ctrl+d
-
-To stop the cpu loading type in the shell.
-
-# kill -9 `ps aux | grep yes | grep -v grep | awk '{print $2}'`
-
